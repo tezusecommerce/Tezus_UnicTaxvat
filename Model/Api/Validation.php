@@ -20,7 +20,7 @@ class Validation implements ValidationInterface
      */
     public function __construct(
         CustomerRepository $customerRepository,
-        SearchCriteriaBuilder $criteriaBuilder,
+        SearchCriteriaBuilder $criteriaBuilder
     )
     {
         $this->_customerRepository = $customerRepository;

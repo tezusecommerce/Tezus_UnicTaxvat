@@ -4,4 +4,6 @@
 
     <preference for="Magento\Customer\Controller\Account\CreatePost"
                 type="Tezus\UnicTaxvat\Controller\Account\CreatePost"/>
+    <preference for="Tezus\UnicTaxvat\Api\ValidationInterface"
+                type="Tezus\UnicTaxvat\Model\Api\Validation"/>
 </config>
