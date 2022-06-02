@@ -5,6 +5,7 @@ namespace Tezus\UnicTaxvat\Model\Api;
 use Magento\Customer\Model\ResourceModel\CustomerRepository;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Exception\LocalizedException;
+use Tezus\UnicTaxvat\Api\ValidationInterface;
 
 class Validation implements ValidationInterface
 {
